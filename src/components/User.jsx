@@ -4,7 +4,7 @@ const User = ({ name = 'Tanishq Joshi', designation = 'Software Engineer', about
       <div className="mb-8">
         <h1 className="text-2xl font-bold mb-2 text-blue-800">{name}</h1>
         <p className="text-xl mb-4">{designation}</p>
-        <p className="text-sm text-balance mb-2">{about}</p>
+        {/* <p className="text-sm text-balance mb-2   ">{about}</p> */}
       </div>
 
       <div className="mb-8">
